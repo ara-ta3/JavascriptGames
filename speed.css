@@ -1,0 +1,31 @@
+body {background-color:#336633;}
+a{position:absolute;left:400;top:20;font-family:cursive;color:#ffff00;font-size:20;}
+h1 {color:#ffffff;
+	font-style: italic;
+	font-family: cursive;
+	}
+h2#start {position:absolute;left:520;top:160;
+	font-family: cursive;
+	color:#ffff00}
+p#result{position:absolute;left:520;top:290;
+	font-family: cursive;
+	color:#00a020;
+	font-size:40px}
+input#button{position:absolute;left:520;top:250;font-family:cursive;}
+input#ready{position:absolute;left:360;top:400;font-family:cursive;}
+
+img#P_0{position:absolute;left:180;top:380;}
+img#P_1{position:absolute;left:220;top:380;}
+img#P_2{position:absolute;left:260;top:380;}
+img#P_3{position:absolute;left:300;top:380;}
+
+img#C_0{position:absolute;left:180;top:220;}
+img#C_1{position:absolute;left:220;top:220;}
+img#C_2{position:absolute;left:260;top:220;}
+img#C_3{position:absolute;left:300;top:220;}
+
+img#O_0{position:absolute;left:205;top:300;}
+img#O_1{position:absolute;left:275;top:300;}
+
+
+div#message{position:absolute;top:120;left:70;font-size:30;color:#ffccff}

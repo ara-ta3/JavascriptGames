@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>ポーカー！</title>
+<script src="poker.js"></script>
+<link rel="stylesheet" type="text/css" href="poker.css">
+</head>
+<body onload="message()">
+<h1>Let's Poker</h1>
+<hr>
+<h2 id="start">Do you wanna START ?</h2>
+<input id="button" type="button" value="START!" onclick="getScore(),StartInit()">
+<table style="position:relative;left:0;top:0;"><img src="back03.jpg">
+</table>
+<div id="message">E　n　j　o　y　P　o　k　e　r　! </div>
+<div id="turn" style="visibility:hidden">Do you wanna Change ?</div>
+<div id="explain"> Click and Reverse cards if you Change them !</div>
+<div id="score">You have 1000 POINTS !<br>Bet Your POINTS and Click Start Button !</div>
+<p id="Result">Result</p>
+<input id="change" type="button" value="CHANGE!" onclick="change()">
+<input id="stay" type="button" value="STAY" onclick="stay()">
+<input id="Point" type="text" value="100">
+
+<img id="P_0" src="img/uk0.gif" onclick="Return('P_0',0)">
+<img id="P_1" src="img/uk3.gif" onclick="Return('P_1',1)">
+<img id="P_2" src="img/uk0.gif" onclick="Return('P_2',2)">
+<img id="P_3" src="img/uk3.gif" onclick="Return('P_3',3)">
+<img id="P_4" src="img/uk0.gif" onclick="Return('P_4',4)">
+
+<a href="index.html">GO TOP</a>
+</body>
+</html>

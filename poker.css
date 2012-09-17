@@ -1,0 +1,19 @@
+body {background-color:#336633;}
+a{position:absolute;left:400;top:20;font-family:cursive;color:#ffff00;font-size:20;}
+h1 {color:#ffffff;font-style: italic;font-family: cursive;}
+h2#start {position:absolute;left:520;top:140;font-family: cursive;color:#ffff00}
+p#Result{position:absolute;left:520;top:290;font-family: cursive;color:#00a020;font-size:40px}
+input#button{position:absolute;left:520;top:250;font-family:cursive;}
+input#change{position:absolute;left:300;top:390;font-family: cursive;visibility:hidden;}
+input#stay{position:absolute;left:220;top:390;font-family: cursive;visibility:hidden;}
+input#Point{position:absolute;left:600;top:250;font-family: cursive;}}
+
+div#message{position:absolute;top:120;left:60;font-size:30;color:#ffccff}
+div#explain{position:absolute;top:360;left:60;font-size:20;color:#ffccff;visibility:hidden;}
+div#score{position:absolute;top:200;left:520;font-size:20;color:#ff9966}
+
+img#P_0{position:absolute;left:160;top:320;}
+img#P_1{position:absolute;left:200;top:320;}
+img#P_2{position:absolute;left:240;top:320;}
+img#P_3{position:absolute;left:280;top:320;}
+img#P_4{position:absolute;left:320;top:320;}

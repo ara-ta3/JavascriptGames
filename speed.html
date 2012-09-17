@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>スピード！</title>
+<script src="speed.js"></script>
+<link rel="stylesheet" type="text/css" href="speed.css">
+</head>
+<body onload="message(),ComPut()">
+<h1>Let's Play SPEED !</h1>
+<hr>
+<h2 id="start">Do you wanna START ?</h2>
+<input id="button" type="button" value="START!" onclick="StartInit()">
+
+<table style="position:relative;left:0;top:0;">
+<img src="back_speed.jpg">
+</table>
+<div id="message">　E　n　j　o　y　S　P　E　E　D　!</div>
+<p id="Result">Result</p>
+<input id="ready" type="button" value="READY!" onclick="Ready()">
+
+<img id="C_0" src="img/uk1.gif">
+<img id="C_1" src="img/uk2.gif">
+<img id="C_2" src="img/uk3.gif">
+<img id="C_3" src="img/uk4.gif">
+
+<img id="P_0" src="img/uk4.gif" onclick="Put('P',0,playerArray,P_kindArray,P_HaveArray,true,P_n)">
+<img id="P_1" src="img/uk3.gif" onclick="Put('P',1,playerArray,P_kindArray,P_HaveArray,true,P_n)">
+<img id="P_2" src="img/uk2.gif" onclick="Put('P',2,playerArray,P_kindArray,P_HaveArray,true,P_n)">
+<img id="P_3" src="img/uk1.gif" onclick="Put('P',3,playerArray,P_kindArray,P_HaveArray,true,P_n)">
+
+<img id="O_0" src="img/uk0.gif">
+<img id="O_1" src="img/uk0.gif">
+
+
+<a href="index.html">GO TOP</a>
+</body>
+</html>
